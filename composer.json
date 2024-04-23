@@ -1,0 +1,25 @@
+{
+    "name": "easybell/assesment",
+    "description": "easybell senior software engineer assesment",
+    "type": "project",
+    "config": {
+        "platform": {
+            "php": "8.3.*"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Easybell\\Assesment\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mahdi Khanzadi"
+        }
+    ]
+}
